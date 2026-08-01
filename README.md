@@ -1,4 +1,4 @@
-```markdown
+
 # Python for AI
 
 A collection of my Python learning journey as I build a strong foundation for Artificial Intelligence and Machine Learning.
@@ -26,14 +26,19 @@ This repository documents my progress as I learn Python—from the fundamentals 
 ## Repository Structure
 
 
+```
 python-for-ai/
-├── data/
-├── func/
-├── notebooks/
-├── main.py
+├── classes/
+├── error_handling/
+├── projects/
+├── sales-analysis/
+├── tests/
+├── tests_2/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
+```
 
 
 ## Tools
@@ -52,4 +57,3 @@ The goal of this repository is to build a solid Python foundation for Artificial
 
 🚀 This repository is continuously updated as I learn new Python concepts and build new projects.
 
-```
