@@ -1,8 +1,4 @@
-person = {
-    "name": "john",
-    "age": 18,
-    "city": "new york"
-}
+person = {"name": "john", "age": 18, "city": "new york"}
 
 person["age"] = 20
 person["license"] = True

@@ -1,6 +1,6 @@
 empty = set()
 
-fruits = set(['apple', 'banana', 'cherry', 'banana'])
+fruits = set(["apple", "banana", "cherry", "banana"])
 print(fruits)  # Output: {'banana', 'cherry', 'apple'}
 
 scores = [88, 90, 78, 90, 88]

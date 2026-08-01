@@ -15,7 +15,7 @@ license = my_list[-1]
 print(f"my name is {name} and I am {age} years old and I have a license: {license}")
 
 my_list[0] = "bob"
-my_list.append('arisu')
+my_list.append("arisu")
 my_list.remove(age)
 
 print(my_list)

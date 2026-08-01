@@ -7,4 +7,5 @@ def check_weather():
     else:
         print("It's a nice day")
 
+
 check_weather()

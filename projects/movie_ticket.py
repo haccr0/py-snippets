@@ -27,7 +27,7 @@ thanks = "thank you!"
 # checking requirements
 if user_age >= 18 and user_id:
     print(f"{thanks.upper()}, you can enter")
-elif user_age >=18 and not user_id:
+elif user_age >= 18 and not user_id:
     print(f"{sorry.upper()}, you need an id to enter")
 else:
     print(f"{sorry.upper()}, you are too young to enter")

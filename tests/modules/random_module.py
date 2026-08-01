@@ -1,6 +1,6 @@
 import random
 
-number = random.randint(1,10)
+number = random.randint(1, 10)
 choice = random.choice(["apple", "orange", "banana"])
 
 guess = input("guess a no")
