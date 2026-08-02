@@ -1,59 +1,33 @@
+# snippets-py
 
-# Python for AI
+A collection of Python snippets, exercises, and examples built while learning the fundamentals of Python.
 
-A collection of my Python learning journey as I build a strong foundation for Artificial Intelligence and Machine Learning.
-
-## About
-
-This repository documents my progress as I learn Python—from the fundamentals to more advanced topics. It includes practice exercises, experiments, and mini-projects that help strengthen my programming skills for AI and Machine Learning.
-
-## Topics Covered
+## Topics
 
 - Variables & Data Types
-- Operators
-- Conditional Statements
+- Strings
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+- Conditionals
 - Loops
 - Functions
-- Object-Oriented Programming (OOP)
+- Modules
 - File Handling
 - Exception Handling
-- Modules & Packages
-- Working with APIs
-- Lists, Tuples, Dictionaries & Sets
-- Mini Projects
-- Python Best Practices
+- Object-Oriented Programming
 
-## Repository Structure
+## Acknowledgements
 
+This repository was created while following **Dave Ebbelaar's Python course**. The code represents my own practice and learning based on the concepts taught in the course.
 
-```
-python-for-ai/
-├── classes/
-├── error_handling/
-├── projects/
-├── sales-analysis/
-├── tests/
-├── tests_2/
-├── requirements.txt
-├── .gitignore
-└── README.md
+## Resources
 
-```
+- 🎥 **Python Course:** https://youtu.be/ygXn5nV5qFc
+- 📥 **Course Resources:** https://go.datalumina.com/M2YfRW3
+- 📕 **Course Handbook:** https://go.datalumina.com/cm5P6b6
 
+## License
 
-## Tools
-
-- Python 3
-- Visual Studio Code
-- Git
-- GitHub
-- Ruff
-
-## Goal
-
-The goal of this repository is to build a solid Python foundation for Artificial Intelligence and Machine Learning through consistent practice and hands-on projects.
-
-## Status
-
-🚀 This repository is continuously updated as I learn new Python concepts and build new projects.
-
+This repository is intended for educational purposes and personal learning.
