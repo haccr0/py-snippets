@@ -2,6 +2,9 @@ import random
 
 print("guess the number game, you have 10 guesses")
 
+msg = "But you're very close"
+msg_2 = "you're very very very close"
+
 
 def function():
 
@@ -23,7 +26,26 @@ def function():
 
         attempts -= 1
 
-        if user_guess < guess_no:
+        if (
+            user_guess < guess_no + 3
+            and user_guess > guess_no - 3
+            and user_guess != guess_no
+        ):
+            if user_guess < guess_no:
+                print(f"Too low! {msg_2}. Try again.")
+            else:
+                print(f"Too high! {msg_2}. Try again.")
+
+        elif (
+            user_guess < guess_no + 6
+            and user_guess > guess_no - 6
+            and user_guess != guess_no
+        ):
+            if user_guess < guess_no:
+                print(f"Too low! {msg}. Try again.")
+            else:
+                print(f"Too high! {msg}. Try again.")
+        elif user_guess < guess_no:
             print("Too low! Try again.")
         elif user_guess > guess_no:
             print("Too high! Try again.")
